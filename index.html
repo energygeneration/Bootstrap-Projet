@@ -13,8 +13,8 @@
 <body>
     <header>
         <nav class="navbar text-white px-5" style="background-color: #DB4702;">
-            <button class="btn btn-sm btn-outline-secondary  text-white ronded-circle"
-                style=" background-color: darkgray;" type="button">GOOD RICE</button>
+            <button class="btn btn-sm btn-outline-secondary  text-white rounded-circle"
+                style=" background-color: darkgray; width: 60px; height: 60px;" type="button">GOOD RICE</button>
             <ul class="nav justify-content-end">
                 <li class="nav-item ">
                     <a class="nav-link " href="#">Acceuil</a>
@@ -39,25 +39,25 @@
     </header>
     <main>
         <div class="container-fluid-banner">
-            <section class="section section-top section-full">
                 <div class="image ">
-                    <img class=img-responsive src="image/page.webp" style="max-width : 100%; heigth: auto;
-                    display: block;">
+                    <img  src="image/page.webp" class=img-fluid alt="photo-restaurant" style="max-width : 100%; height:auto ">
                     <!-- Subheading -->
-                    <h2 class="lead text-white text-center mb-5 animate" style=" font-size: 86px; position: absolute; bottom: 15%; left: 40%;">
-                    GOOD RICE
-                </h2>
+                    <h2 class="lead text-white text-center mb-5 animate"
+                        style=" font-size: 86px; position: absolute; bottom: 15%; left: 40%;">
+                        GOOD RICE
+                    </h2>
 
-                <!-- Button -->
-                <p class="text-center mb-0 animate" data-toggle="animation" data-animation="fadeUp"
-                    data-animation-order="3" data-animation-trigger="load">
-                    <a href="#" style="background-color: #DB4702; position: absolute; bottom: 1%; left: 40%;" class="btn btn-outline-primary text-white">
-                        Voire notre menu
-                    </a>
-                </p>
-    </section>
+                    <!-- Button -->
+                    <p class="text-center">
+                        <a href="#"
+                            style="background-color: #DB4702;  width: 15%; height: 10vh; font-size: 20px; position: absolute; top: 100%; left: 40%;"
+                            class="btn btn-outline-primary text-white pt-3">
+                            Voire notre menu
+                        </a>
+                    </p>
                 </div>
-                       
+
+
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4  ">
             <div class="card-body ">
@@ -175,7 +175,7 @@
                 </p>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 none">
             <div class="col mb-5">
                 <div class="card h-100 shadow">
                     <img src="./image/croquette.jpg" class="card-img-top" alt="croquette">
@@ -201,7 +201,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 none">
             <div class="col mb-5">
                 <div class="card h-100 shadow">
                     <img src="./image/riz-gras.jpg" class="card-img-top" alt="riz-gras">
@@ -227,7 +227,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="row row-cols-1 row-cols-md-3 g-4 none">
             <div class="col mb-5">
                 <div class="card h-100 shadow">
                     <img src="./image/crepe.jpg" class="card-img-top" alt="crepe">
@@ -253,7 +253,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="row row-cols-1 row-cols-md-3 g-4 none ">
             <div class="card-body ">
                 <!-- Title -->
                 <h4 class="card-title  text-center" style="font-size: 32px;">
@@ -269,7 +269,7 @@
             </div>
         </div>
 
-        <div class="row row-cols-1 row-cols-md-3 g-4 " style=" background-color: #FFFBFA;">
+        <div class="row row-cols-1 row-cols-md-3 g-4 none" style=" background-color: #FFFBFA;">
             <div class="card-body ">
                 <!-- Title -->
                 <h4 class="card-title  text-center" style="font-size: 32px;">
@@ -283,53 +283,57 @@
                 </p>
             </div>
         </div>
-        <div class="partenaire shadow" style=" background-color: #FFFBFA;">
-            <div class="container py-5">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                        <img src="./image/logo2.png" alt="logo-partenaire">
-                    </div>
-                    <div class="col">
-                        <img src="./image/logo3.png" alt="logo-partenaire">
-                    </div>
-                    <div class="col">
-                        <img src="./image/logo1.png" alt="logo-partenaire">
-                    </div>
-                </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 sm-2 none ms-5">
+            <div class="col mb-5">
+                <img src="./image/logo2.png" class="logo ms-5" alt="logo-partenaire">
+            </div>
+            <div class="col mb-5">
+                <img src="./image/logo3.png" class="logo ms-5" alt="logo-partenaire">
+            </div>
+            <div class="col mb-5">
+                <img src="./image/logo1.png" class="logo ms-5 " alt="logo-partenaire">
             </div>
         </div>
-        <div class="container mt-5" style="width:50%;">
-            <h2 class="message fw-bold">Contactez-nous</h2>
-            <form>
-                <fieldset>
-                    <p>Pour tous vos commandes, livraisons à domicile,n'hésitez pas à utilisé ce formulaire pour
-                        prendre contact avec nous!</p>
 
-                    <div class="form-group">
-                        <label for="nom">Nom</label>
-                        <input type="text" class="form-control" style="border: 2px solid black;" id="nom">
-                    </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 sm-2 none ms-5">
+            <div class="container mt-5" style="width:50%;">
+                <h2 class="message fw-bold">Contactez-nous</h2>
+                <form>
+                    <fieldset>
+                        <p>Pour tous vos commandes, livraisons à domicile,n'hésitez pas à utilisé ce formulaire pour
+                            prendre contact avec nous!</p>
 
-                    <div class="form-group">
-                        <label for="email">Votre e-mail</label>
-                        <input type="email" class="form-control" style="border: 2px solid black;" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="email"> Quel est votre message</label>
-                        <input type="email" class="form-control" style="border: 2px solid black;" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="bio">Votre commentaire</label>
-                        <textarea class="form-control" style="border: 2px solid black; height: 30vh;" id="bio"
-                            rows="3"></textarea>
-                    </div>
-                </fieldset> 
+                        <div class="form-group">
+                            <label for="nom">Nom</label>
+                            <input type="text" class="form-control" style="border: 2px solid black;" id="nom">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Votre e-mail</label>
+                            <input type="email" class="form-control" style="border: 2px solid black;" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="email"> Quel est votre message</label>
+                            <input type="email" class="form-control" style="border: 2px solid black;">
+                        </div>
+                        <div class="form-group">
+                            <label for="bio">Votre commentaire</label>
+                            <textarea class="form-control" style="border: 2px solid black; height: 30vh;" id="bio"
+                                rows="3"></textarea>
+                        </div>
+
+                        <div class="boutton d-flex justify-content-center">
+                            <button class="btn text-center mt-3"
+                                style="border: 2px solid black; width:45%; border-radius: 10px;" type="submit">Envoyer
+                                votre
+                                message</button>
+                        </div>
+                    </fieldset>
+                </form>
+
+
+            </div>
         </div>
-       <div class="boutton d-flex justify-content-center">
-        <button class="btn text-center mt-3" style="border: 2px solid black; width:20%; border-radius: 10px;"
-        type="submit">Envoyer votre message</button>
-       </div>
-        </form>
         <div class="card-body ">
             <!-- Title -->
             <h4 class="card-title py-3 fw-bold text-center " style="color:#DB4702 ; font-size: 32px;">
@@ -337,7 +341,7 @@
             </h4>
         </div>
         <div class="temoignage">
-            <div class="row row-cols-1 row-cols-md-3 g-4 mb-5 mx-auto">
+            <div class="row row-cols-1 row-cols-md-3 sm-2 g-4 none mb-5">
                 <div class="col mb-3">
                     <div class="nom text-bg-light mb-3 ms-5 shadow" style="max-width: 18rem;">
                         <div class="card-header text-white " style="background-color: #DB4702;">Didine</div>
@@ -370,7 +374,7 @@
     </main>
 
     <footer>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 px-4 text-white"
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 none row-cols-lg-4 g-4 px-4 text-white"
             style=" background-color: #545050; ">
             <div class="col d-flex align-items-start">
                 <div>
