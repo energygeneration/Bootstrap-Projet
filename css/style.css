@@ -31,11 +31,11 @@
 }
 .container-fluid{
     background-image: url(./../image/page.webp);
-    width: 100%;
+  max-width: 100%;
     background-size: cover;
     display: block;
-    height: 100vh;
-margin-bottom: 40px;
+    height: auto;
+
 }
 
 .card{
@@ -52,11 +52,23 @@ margin-bottom: 40px;
  .lead{
     padding: 300px 0 100px 20px;
     font-size:5em;
-    min-width: 10px;  
+    min-width: 10px; 
+    animation: titre ease 3.5s; 
 }
+@keyframes titre{
+    0%{
+        opacity: 0;
+        transform: translate(180px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
+
 .btn{
     background-color: #DB4702;
     width: 20%;
-    height: 10vh;
+    height: 15vh;
     font-size: 3em;
 } 
