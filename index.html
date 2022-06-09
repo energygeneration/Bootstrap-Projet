@@ -11,44 +11,54 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar text-white px-5" style="background-color: #DB4702;">
-            <button class="button btn-sm btn-outline-secondary  text-white rounded-circle"
-                style=" background-color: darkgray; width: 60px; height: 60px;" type="button">GOOD RICE</button>
-            <ul class="nav justify-content-end">
-                <li class="nav-item ">
-                    <a class="nav-link " href="#">Acceuil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Le restaurant</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">A emporter</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Contacte</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Reservation</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <main>
+    <nav class="navbar navbar-expand-lg navbar-light bg-custum-color px-5">
         <div class="container-fluid">
+            <button class="button btn-sm btn-outline-secondary  text-white rounded-circle bg-custum"
+            style=" background-color: darkgray; width: 60px; height: 60px;" type="button">GOOD RICE</button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item nav-style">
+                <a class="nav-link" aria-current="page" href="#">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Le restaurant</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">
+                    A emporter
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacte</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Reservation</a>
+            </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+
+    <main>
+        <div class="container-fluid bg-image">
             <h2 class="lead text-white text-center">
                 GOOD RICE
             </h2>
-
+        
             <!-- Button -->
         </div>
         <div class="cols-1 cols-lg-2 sm-md-6 g-4  ">
             <p class="text-center">
                 <a href="#" style="background-color: #DB4702;  width: 20%; height: 10vh; font-size: 20px; "
-                    class="btn btn-outline-primary text-white pt-3">
+                    class="btn btn-outline-primary text-white pt-3 bg-custum-bouton">
                     Voire notre menu
                 </a>
             </p>
@@ -319,9 +329,7 @@
                         <div class="boutton d-flex justify-content-center">
                             <button class="boutton text-center mt-3"
                                 style="border: 2px solid black; width:45%; height: 10vh; border-radius: 10px;"
-                                type="submit">Envoyer
-                                votre
-                                message</button>
+                                type="submit">Envoyer</button>
                         </div>
                     </fieldset>
                 </form>
@@ -356,7 +364,7 @@
                 <div class="col mb-3">
                     <div class="nom text-bg-light mb-3 ms-5 shadow" style="max-width: 18rem;">
                         <div class="card-header text-white" style="background-color: #DB4702;">Andre</div>
-                        <div class="card-body pt-4">
+                        <div class="card-body ">
                             <p>-Superbe moment,acceuil,cadre,cuisine de haut vol,serveurs,attentionnésmerci pour
                                 la délicate .Bravo à vous .</p>
                         </div>

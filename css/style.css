@@ -5,17 +5,20 @@
     margin: 0;
     padding: 0;
 }
-.navbar{
-    background-color: #DB4702;
+.bg-custum-color{
+    background-color: #DB4702 !important;
 }
-.button{
+.bg-custum{
     background-color: darkgray;
     width: 60px;
     height: 60px;
 }
-.nav-link{
-    color: white;
+.nav-link {
+    color: #fff !important;
     font-size: 1.3rem;
+}
+.nav-link:hover {
+    color: blue !important;
 }
 
 .menu{
@@ -29,15 +32,15 @@
     font-weight: 700px;
     float: right;
 }
-.container-fluid{
+.bg-image{
     background-image: url(./../image/page.webp);
   max-width: 100%;
     background-size: cover;
     display: block;
-    height: auto;
+    height: 80vh;
+    line-height: 80vh;
 
 }
-
 .card{
     width: 60%;
     margin: auto;
@@ -66,7 +69,7 @@
     }
 }
 
-.btn{
+.bg-custum-bouton{
     background-color: #DB4702;
     width: 20%;
     height: 15vh;
