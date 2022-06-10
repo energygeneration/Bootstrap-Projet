@@ -56,6 +56,7 @@
     padding: 300px 0 100px 20px;
     font-size:5em;
     min-width: 10px; 
+    display: block;
     animation: titre ease 3.5s; 
 }
 @keyframes titre{
